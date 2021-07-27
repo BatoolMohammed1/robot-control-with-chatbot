@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="robot"/>
+        <title>Robot</title>
+
+    </head>
+    <body align="center" bgcolor="#ffc0cb" >
+            <font color="#3BB9FF" size="120">Welcome to my website</font>
+            <h1>Homepage for robot control. </h1>
+            <img src="img/pic4.jpeg" alt="صورة الشعار" width="470" height="350"/><br>
+        <center>
+            <a href="index.html">page 1</a>
+            <a href="index2.html">page 2</a><br>
+        </center>   
+        <script>
+            window.watsonAssistantChatOptions = {
+                integrationID: "87688e8c-2fee-44a5-9e0a-6fd6e2b928d3", // The ID of this integration.
+                region: "eu-gb", // The region your integration is hosted in.
+                serviceInstanceID: "b03d78a4-ffba-458d-814f-05b88954cda4", // The ID of your service instance.
+                onLoad: function(instance) { instance.render(); }
+              };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+              document.head.appendChild(t);
+            });
+          </script>
+    </body>
+    <style>
+        a {
+                display: grid;
+                background-color: rgb(169, 171, 177);
+                margin: 5px;
+                padding: 5px;
+                padding-top: 20px;
+                width: 100px;
+                height: 35px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                border-radius: 12px;
+                color: #80c5e2;
+                transition: 0.4;
+                font-size: 17px;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+        a:hover{
+            color: black;
+            }
+    </style>
+</html>
